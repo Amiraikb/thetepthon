@@ -37,7 +37,7 @@ async def amireallyalive(event):
     ms = (end - start).microseconds / 1000
     _, check_sgnirts = check_data_base_heal_th()
     EMOJI = gvarstatus("ALIVE_EMOJI") or "⿻┊‌‎"
-    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "**父[ 𝚃‌𝙴𝙿𝚃𝙷𝙾𝙽‌ 𝙸𝚂 𝚆𝙾𝚁𝙺𝙸𝙽𝙶 ✓ ](t.me/Tepthon)父**"
+    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "**父[ gibthon 𝙸𝚂 𝚆𝙾𝚁𝙺𝙸𝙽𝙶 ✓ ](t.me/rooiil)父**"
     JMTHON_IMG = gvarstatus("ALIVE_PIC")
     caption = jmthon_caption.format(
         ALIVE_TEXT=ALIVE_TEXT,
@@ -77,12 +77,12 @@ temp = """{ALIVE_TEXT}
 **‌‎{EMOJI}‌‎𝚃‌𝙴𝙿𝚃𝙷𝙾𝙽‌ 𖠄 {telever}** ٫
 **‌‎{EMOJI}‌‎𝚄𝙿𝚃𝙸𝙼𝙴 𖠄 {uptime}** ٫
 ‌‎**{EMOJI}‌‎‌‎𝙿𝙸𝙽𝙶 𖠄 {ping}** ٫
-**𖠄 Tepthon 𝘂𝘀𝗲𝗿𝗯𝗼𝘁 𖠄**"""
+**𖠄 gibthon 𝘂𝘀𝗲𝗿𝗯𝗼𝘁 𖠄**"""
 
 
 def jmthonalive_text():
     EMOJI = gvarstatus("ALIVE_EMOJI") or "  ✥ "
-    jmthon_caption = "**𝚃‌𝙴𝙿𝚃𝙷𝙾𝙽‌ 𝙸𝚂 𝚆𝙾𝚁𝙺𝙸𝙽𝙶**\n"
+    jmthon_caption = "**gibthon 𝙸𝚂 𝚆𝙾𝚁𝙺𝙸𝙽𝙶**\n"
     jmthon_caption += f"**{EMOJI} اصدار التيليثون :** `{version.__version__}\n`"
     jmthon_caption += f"**{EMOJI} اصدار تيبثون :** `{jmthonversion}`\n"
     jmthon_caption += f"**{EMOJI} اصدار البايثون :** `{python_version()}\n`"
@@ -103,7 +103,7 @@ async def repo(event):
 ROZ_PIC = "https://telegra.ph/file/577bd6562f22ca288f645.jpg"
 RAZAN = Config.TG_BOT_USERNAME
 ROZ_T = (
-    f"**⌯︙بوت تيبثـون يعمل بنجاح 🤍،**\n"
+    f"**⌯︙بوت جيبثون يعمل بنجاح 🤍،**\n"
     f"**   - اصدار التليثون :** `1.23.0\n`"
     f"**   - اصدار تيبثون :** `4.0.0`\n"
     f"**   - البوت المستخدم :** `{RAZAN}`\n"
@@ -122,7 +122,7 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
         if query.startswith("السورس") and event.query.user_id == sbb_b.uid:
             buttons = [
                 [
-                    Button.url("قنـاة السـورس ⚙️", "https://t.me/Tepthone"),
+                    Button.url("قنـاة السـورس ⚙️", "https://t.me/rooiil"),
                     Button.url("المطـور 👨🏼‍💻", "https://t.me/PPF22"),
                 ]
             ]
